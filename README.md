@@ -22,7 +22,7 @@ This script intercepts requests to the PyPI simple index and files.pythonhosted.
 
 ## Python Usage
 Once deployed and running, you can use `pip` as follows:
-
+(Replace 'worker_url.dev' with the actual URL of your worker url .)
 ```bash
  pip3 install --index-url https://worker_url.dev/pypi/simple package_name
 ```
